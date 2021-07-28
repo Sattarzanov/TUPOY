@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+
+
+h1{
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}

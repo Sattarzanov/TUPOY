@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+
+
+.parentquestion{
+    width: 100%;
+    margin: auto;
+}
+
+
+.question li{
+    list-style: none;
+    color: brown;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.answer li{
+    list-style: none;
+    display: inline-flex;
+}
+
+.answer li button{
+    width: 150px;
+    height: 50px;
+    background-color: darkblue;
+    margin-left: 15px;
+    position: relative;
+    left: 295%;
+    top: 35%;
+}
+
+.answer li button a{
+    text-decoration: none;
+    color: orange;
+    font-size: 18px;
+}
+
+
+span:hover{
+    position: absolute;
+    top: 50%;
+}
